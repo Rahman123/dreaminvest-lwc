@@ -10,11 +10,13 @@ DreamInvest is a sample financial services application. It features a mutual fun
 
 [![Thumbnail](http://img.youtube.com/vi/0gIT8la-GRM/0.jpg)](https://www.youtube.com/watch?v=0gIT8la-GRM)
 
+> This sample application is designed to run on Salesforce Platform. If you want to experience Lightning Web Components on any platform, please visit https://lwc.dev, and try out our Lightning Web Components sample application [LWC Recipes OSS](https://github.com/trailheadapps/lwc-recipes-oss).
+
 ## Table of contents
 
 -   Installation Instructions
 
-    -   [Installing DreamInvest using Salesforce DX](#installing-dreaminvest-using-salesforce-dx)
+    -   [Installing DreamInvest using a scratch org](#installing-dreaminvest-using-a-scratch-org)
     -   [Installing DreamInvest using an unlocked package](#installing-dreaminvest-using-an-unlocked-package)
     -   [Completing the Installation](#completing-the-installation)
 
@@ -24,10 +26,10 @@ DreamInvest is a sample financial services application. It features a mutual fun
 
 There are two ways to install DreamInvest:
 
--   [Using Salesforce DX](#installing-dreaminvest-using-salesforce-dx): This is the recommended installation option. Use this option if you are a developer who wants to experience the app and the code.
+-   [Using a Scratch Org](#installing-dreaminvest-using-a-scratch-org): This is the recommended installation option. Use this option if you are a developer who wants to experience the app and the code.
 -   [Using an Unlocked Package](#installing-dreaminvest-using-an-unlocked-package): This option allows anybody to experience the sample app without installing a local development environment.
 
-### Installing DreamInvest using Salesforce DX
+### Installing DreamInvest using a Scratch Org
 
 1. Set up your environment. Follow the steps in the [Quick Start: Lightning Web Components](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components/) Trailhead project. The steps include:
 
@@ -93,7 +95,7 @@ This is the recommended option for non developers. Use this option if you want t
 
 2. Enable MyDomain in your DE org. Instructions to do this are [here](https://trailhead.salesforce.com/modules/identity_login/units/identity_login_my_domain).
 
-3. Click [this link](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tB0000000KAezIAG) to install the DreamInvest unlocked package into your developer edition org. Approve the Third-Party access for SCP Trusted Sites during the installation process.
+3. Click [this link](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tB0000000OEFgIAO) to install the DreamInvest unlocked package into your developer edition org. Approve the Third-Party access for SCP Trusted Sites during the installation process.
 
 4. Select **Install for All Users**.
 
